@@ -220,6 +220,23 @@ const Index = () => {
               Оставьте заявку и мы свяжемся с вами в течение 30 минут
             </p>
           </div>
+
+          <Card className="p-8 border-2 shadow-xl bg-gradient-to-br from-primary/5 to-secondary/5 mb-8">
+            <div className="flex items-start gap-6">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center flex-shrink-0">
+                <Icon name="UserRound" className="text-white" size={36} />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-2xl font-bold mb-2">Анна Владимировна</h3>
+                <p className="text-muted-foreground mb-3">Главный бухгалтер • 25 лет стажа в бухгалтерии</p>
+                <a href="tel:+79143055501" className="inline-flex items-center gap-2 text-lg font-semibold text-primary hover:text-secondary transition-colors">
+                  <Icon name="Phone" size={20} />
+                  <span>+7 (914) 305-55-01</span>
+                </a>
+              </div>
+            </div>
+          </Card>
+
           <Card className="p-8 border-2 shadow-xl">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
